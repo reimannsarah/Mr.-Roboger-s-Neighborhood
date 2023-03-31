@@ -20,6 +20,12 @@ Code: beepBoopNeighbor(10);
 Expected Output: ["beep","boop"3,4,5,6,7,8,9."beep"]
 
 Test#4
-Test: "It should replcae any number containing a 3 with 'Won't you be my neighbor?'"
+Test: "It should replacee any number containing a 3 with 'Won't you be my neighbor?"
 Code: beepBoopNeighbor(10);
 Expected Output: ["beep","boop","won't you be my neighbor?",4,5,6,7,8,9,"beep"]
+
+Test#5
+Test: "It should run the 'neighbor' replacement before it runs the 'boop' or 'beep' replacement"
+Code: beepBoopNeighbor(13);
+Expected Output: ["beep","boop","won't you be my neighbor?",4,5,6,7,8,9,"beep","beep","boop","Won't you be my neighbor?"]
+

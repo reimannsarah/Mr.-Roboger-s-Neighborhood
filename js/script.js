@@ -6,12 +6,13 @@ function beepBoopNeighbor(number){
   numberArray.push(i);
   }
   const beep = numberArray.map(function(digit){
-    if(/\d*1\d*/.test(digit)){
-      return "Beep!";
-    }else if (/\d*2\d*/.test(digit)){
+    if (/\d*3\d*/.test(digit)) {
+      return "Won't you be my neighbor?"
+    } else if (/\d*2\d*/.test(digit)) {
       return "Boop!";
-   
-    }else{
+    } else if (/\d*1\d*/.test(digit)) {
+      return "Beep!";
+    }else {
       return digit;
     }
   })
