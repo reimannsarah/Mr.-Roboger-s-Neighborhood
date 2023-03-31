@@ -29,12 +29,16 @@ function userInput(e){
 }
 
 function displayArray(resultArray){
-  const div = document.querySelector("#resultArray");
+  const overlay = document.querySelector("body");
+  const div = document.querySelector("#resultCard");
   const p = document.createElement("p");
   div.innerHTML = '';
   p.innerText = resultArray.join(", ");
-  div.append(p);
+  div.append(p)
+
+  
 }
+
 
 window.addEventListener("load", function() {
   document.querySelector("form").addEventListener("submit", userInput);
