@@ -30,5 +30,21 @@ h1 {
 .input {
   display: block;
   margin: 0 auto;
-
+}
+#btn {
+  background-color: #2C497F;
+  color: white;
+  font-family: Gloria Hallelujah;
+  border: 2px solid;
+  border-color: #2C497F;
+  text-align: center;
+  padding: 5px 13px;
+  border-radius: 30px;
+  transition-duration: 0.2s;
+}
+#btn:hover {
+  background-color: #FF9595;
+  border: 2px solid;
+  border-color: #2C497F;
+  color: #2C497F;
 }
