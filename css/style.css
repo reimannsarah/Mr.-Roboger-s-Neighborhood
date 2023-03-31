@@ -18,6 +18,7 @@ h1 {
   flex-direction: row;
   justify-content: space-evenly;
   margin: 50px;
+  box-sizing: border-box;
 }
 .rob{
   width: 15%;
@@ -70,7 +71,7 @@ h1 {
 #btn:active{
   background-color:#FE4A49;
 }
-/* #resultCard{
+#resultCard{
     position: fixed;
     top: 50%;
     left: 50%;
@@ -81,4 +82,4 @@ h1 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     background-color: white;
     z-index: 1;
-} */
+}

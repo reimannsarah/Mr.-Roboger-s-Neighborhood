@@ -29,17 +29,16 @@ function userInput(e){
 }
 
 function displayArray(resultArray){
-  const overlay = document.querySelector("body");
-  const div = document.querySelector("#resultCard");
+  const dialog = document.querySelector("#resultCard");
   const p = document.createElement("p");
-  div.innerHTML = '';
+  dialog.innerHTML = '';
   p.innerText = resultArray.join(", ");
-  div.append(p)
-
-  
+  dialog.append(p);
+  dialog.showModal();  
 }
 
 
 window.addEventListener("load", function() {
   document.querySelector("form").addEventListener("submit", userInput);
 })
+btn.addEventListener("submit", closeModal());
