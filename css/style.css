@@ -27,3 +27,8 @@ h1 {
   border: 2px solid;
   border-color: #FE4A49;
 }
+.input {
+  display: block;
+  margin: 0 auto;
+
+}
