@@ -5,7 +5,7 @@ function beepBoopNeighbor(number){
   for(let i = 0; i <= number; i++){
   numberArray.push(i);
   }
-  const beep = numberArray.map(function(digit){
+  const finalArray = numberArray.map(function(digit){
     if (/\d*3\d*/.test(digit)) {
       return "Won't you be my neighbor?"
     } else if (/\d*2\d*/.test(digit)) {
@@ -16,14 +16,14 @@ function beepBoopNeighbor(number){
       return digit;
     }
   })
-  return beep;
+  return finalArray;
 }
 
 // //UI Logic
 
 function userInput(e){
   e.preventDefault();
-  const input = document.querySelector("#input").value;
+  const input = document.querySelector("#inp").value;
   const output = beepBoopNeighbor(input); 
   displayArray(output); 
 }

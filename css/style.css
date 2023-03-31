@@ -31,6 +31,13 @@ h1 {
   display: block;
   margin: 0 auto;
 }
+#inp{
+  width: 100px;
+  height: 80px;  
+  font-size: 50px;
+  text-align: center;
+  
+}
 
 #btn {
   background-color: #2C497F;
