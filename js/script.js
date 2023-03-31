@@ -8,6 +8,9 @@ function beepBoopNeighbor(number){
   const beep = numberArray.map(function(digit){
     if(/\d*1\d*/.test(digit)){
       return "Beep!";
+    }else if (/\d*2\d*/.test(digit)){
+      return "Boop!";
+   
     }else{
       return digit;
     }
