@@ -19,13 +19,17 @@ function beepBoopNeighbor(number){
   return beep;
 }
 
-//UI Logic
+// //UI Logic
 
 function userInput(e){
   e.preventDefault();
   const input = document.querySelector("#input").value;
   const output = beepBoopNeighbor(input); 
   displayArray(output); 
+  // const div = document.querySelector("#resultArray");
+  // const p = document.createElement("p");
+  // p.innerText(resultArray);
+  // div.append(p);
 }
 
 function displayArray(resultArray){
@@ -36,5 +40,5 @@ function displayArray(resultArray){
 }
 
 window.addEventListener("submit", function() {
-  this.document.querySelector("form").addEventListener("submit", userInput);
+  document.querySelector("form").addEventListener("submit", userInput);
 })
