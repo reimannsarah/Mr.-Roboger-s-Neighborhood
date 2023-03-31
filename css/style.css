@@ -31,6 +31,7 @@ h1 {
   display: block;
   margin: 0 auto;
 }
+
 #btn {
   background-color: #2C497F;
   color: white;
@@ -47,4 +48,10 @@ h1 {
   border: 2px solid;
   border-color: #2C497F;
   color: #2C497F;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+}
+#btn:active{
+  background-color:#FE4A49;
 }
