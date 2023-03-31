@@ -31,6 +31,7 @@ function userInput(e){
 function displayArray(resultArray){
   const div = document.querySelector("#resultArray");
   const p = document.createElement("p");
+  div.innerHTML = '';
   p.innerText = resultArray.join(", ");
   div.append(p);
 }
