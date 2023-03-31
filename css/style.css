@@ -7,3 +7,10 @@ body {
 h1 {
   text-align: center;
 }
+.robot {
+  display: flex;
+  flex-direction: row;
+}
+.rob{
+  width: 15%;
+}
