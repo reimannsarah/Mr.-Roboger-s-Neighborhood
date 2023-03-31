@@ -26,19 +26,15 @@ function userInput(e){
   const input = document.querySelector("#input").value;
   const output = beepBoopNeighbor(input); 
   displayArray(output); 
-  // const div = document.querySelector("#resultArray");
-  // const p = document.createElement("p");
-  // p.innerText(resultArray);
-  // div.append(p);
 }
 
 function displayArray(resultArray){
   const div = document.querySelector("#resultArray");
   const p = document.createElement("p");
-  p.innerText(resultArray);
+  p.innerText = resultArray.join(", ");
   div.append(p);
 }
 
-window.addEventListener("submit", function() {
+window.addEventListener("load", function() {
   document.querySelector("form").addEventListener("submit", userInput);
 })
