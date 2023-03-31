@@ -31,10 +31,13 @@ function userInput(e){
 function displayArray(resultArray){
   const dialog = document.querySelector("#resultCard");
   const p = document.createElement("p");
+  
   dialog.innerHTML = '';
   p.innerText = resultArray.join(", ");
-  dialog.append(p);
-  dialog.showModal();     
+  
+  dialog.prepend(p);
+
+  dialog.showModal(); 
   }
 
 

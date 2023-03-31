@@ -83,3 +83,9 @@ h1 {
     background-color: white;
     z-index: 1;
 }
+#closeButton{
+  z-index: 2;
+}
+.farts{
+  z-index: 5;
+}
