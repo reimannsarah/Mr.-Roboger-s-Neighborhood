@@ -5,7 +5,7 @@ Expected Output:
 Description: beepBoopNeighbor();
 
 Test#1
-Test: "It should return an array of numbers up to the inputted number"
+Test: "It should return an array of numbers from 0 up to the inputted number"
 Code: beepBoopNeighbor(10);
 Expected Output: [1,2,3,4,5,6,7,8,9,10]
 
