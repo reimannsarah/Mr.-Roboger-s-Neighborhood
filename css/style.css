@@ -22,16 +22,24 @@ h1 {
 .rob{
   width: 15%;
   height: 10%;
+  transition-duration: 0.2s;
 }
+.rob:hover{
+  width: 20%;
+    height: 15%;
+}
+
 .line {
   border: 2px solid;
   border-color: #FE4A49;
 }
+
 .input {
   display: block;
   margin: 0 auto;
 }
 #inp{
+  background-color: #BEFFE1;
   width: 100px;
   height: 80px;  
   font-size: 50px;

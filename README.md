@@ -23,7 +23,8 @@ This is a simple program that takes one number as the input, makes an array of e
 * Click the submit button
 
 ## Known Bugs
-
+*if you don't enter anything into the input field, nothing happens
+*if you enter a space into the input field, the output is 0
 
 ## License
 
