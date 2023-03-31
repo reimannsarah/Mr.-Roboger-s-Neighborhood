@@ -9,6 +9,11 @@ Test: "It should return an array of numbers from 0 up to the inputted number"
 Code: beepBoopNeighbor(10);
 Expected Output: [1,2,3,4,5,6,7,8,9,10]
 
+Test: "It should find and return 'true' for each element that includes a 1"
+Code: beepBoopNeighbor(10);
+Expected Output: 
+
+
 Test#2
 Test: "It should replace any number containing a 1, with 'beep'"
 Code: beepBoopNeighbor(10);
