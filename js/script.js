@@ -18,3 +18,23 @@ function beepBoopNeighbor(number){
   })
   return beep;
 }
+
+//UI Logic
+
+function userInput(e){
+  e.preventDefault();
+  const input = document.querySelector("#input").value;
+  const output = beepBoopNeighbor(input); 
+  displayArray(output); 
+}
+
+function displayArray(resultArray){
+  const div = document.querySelector("#resultArray");
+  const p = document.createElement("p");
+  p.innerText(resultArray);
+  div.append(p);
+}
+
+window.addEventListener("submit", function() {
+  this.document.querySelector("form").addEventListener("submit", userInput);
+})
