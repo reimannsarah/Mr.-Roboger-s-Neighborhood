@@ -34,11 +34,11 @@ function displayArray(resultArray){
   dialog.innerHTML = '';
   p.innerText = resultArray.join(", ");
   dialog.append(p);
-  dialog.showModal();  
-}
+  dialog.showModal();     
+  }
 
 
 window.addEventListener("load", function() {
   document.querySelector("form").addEventListener("submit", userInput);
 })
-btn.addEventListener("submit", closeModal());
+
